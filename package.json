@@ -1,0 +1,26 @@
+{
+  "name": "is219-csvreader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jar243/is219-oop-principles.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jar243/is219-oop-principles/issues"
+  },
+  "homepage": "https://github.com/jar243/is219-oop-principles#readme",
+  "dependencies": {
+    "coveralls": "^3.1.0",
+    "csv-parse": "^4.15.3",
+    "jest": "^26.6.3"
+  }
+}
